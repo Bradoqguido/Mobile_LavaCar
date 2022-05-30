@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.root.jefersonguido.lavacar.Activity.DetalhesActivity"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:id="@+id/layoutNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome:    "
+            android:textColor="#0a0a09"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtnome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nome"
+            android:textColor="#0a0a09"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/layoutNome"
+        android:layout_marginTop="11dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefone:     "
+            android:textColor="#0a0a09"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txttelefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="telefone"
+            android:textColor="#0a0a09"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutPlaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/layoutTelefone"
+        android:layout_marginTop="11dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Placa:     "
+            android:textColor="#0a0a09"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtplaca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="placa"
+            android:textColor="#0a0a09"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutCor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/layoutPlaca"
+        android:layout_marginTop="11dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cor:     "
+            android:textColor="#0a0a09"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtcor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cor"
+            android:textColor="#0a0a09"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutModelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/layoutCor">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modelo:     "
+            android:textColor="#0a0a09"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtmodelo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="modelo"
+            android:textColor="#0a0a09"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBotoes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true">
+
+
+        <Button
+            android:id="@+id/btnvoltar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Voltar" />
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Editar" />
+
+        <Button
+            android:id="@+id/btnExcluir"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Excluir" />
+    </LinearLayout>
+
+</RelativeLayout>
